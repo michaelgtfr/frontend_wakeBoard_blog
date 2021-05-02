@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    numberItems: 6,
+    numberItems: 15,
     items: [
         {
           id: 1,
