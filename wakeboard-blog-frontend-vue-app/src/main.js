@@ -2,6 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faArrowAltCircleUp, faArrowAltCircleDown } from '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faArrowAltCircleUp, faArrowAltCircleDown)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 // plugins bootstrap
 import BootstrapVue from 'bootstrap-vue'
 
