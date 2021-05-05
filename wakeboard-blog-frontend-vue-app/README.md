@@ -1,5 +1,8 @@
 # wakeboard-blog-frontend-vue-app
 
+link trello: https://trello.com/b/Yj177f5S/waketricks
+
+
 ## Project setup
 ```
 yarn install
