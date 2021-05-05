@@ -1,5 +1,6 @@
 <template>
     <section class="item">
+        <Header></Header>
         <b-container>
             <div class="row">
                 <div id="title_block" class="title_block col-lg-12">
@@ -17,13 +18,15 @@
     import ListOfItem from '@/components/ListOfItem.vue'
     import ButtonDisplayMore from '@/components/ButtonDisplayMore.vue'
     import AncreBottomHomepage from '@/components/AncreBottom.vue'
+    import Header from '@/components/Header.vue'
 
     export default {
         name: 'Homepage',
         components: {
             ListOfItem,
             ButtonDisplayMore,
-            AncreBottomHomepage
+            AncreBottomHomepage,
+            Header
         },
     }
 </script>
